@@ -1,6 +1,6 @@
 {
   "name": "drag-drop",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Drag and Drop application",
   "default": "index.html",
   "dependencies": {
@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
